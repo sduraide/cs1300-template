@@ -32,15 +32,6 @@ body {
     overflow: hidden;
   }
   
-  header{
-    background-image: url('./images/banner.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 20%;
-  }
-  
   h1#header-text{ 
     position: relative;
     top: 0;
@@ -48,7 +39,7 @@ body {
     font-size: 4em;
     color: #fff;
     padding-top: 4vw;
-    padding-bottom: 4vw;
+    padding-bottom: 1vw;
     margin-top: 0px;
   }
   
@@ -67,18 +58,17 @@ body {
   }
   
   .gallery-item {
-    width: 330px;
-    height: 265px;
+    width: 400px;
+    height: 400px;
     margin: 10px;
     text-decoration: none;
     outline-color: #eee;
-    outline-style: dotted;
   }
   
   .gallery-item img {
     position: absolute;
-    width: 330px;
-    height: 265px;
+    width: 400px;
+    height: 400px;
   }
   
   .text-wrapper {
@@ -124,6 +114,11 @@ body {
   
   hr { display: block; margin-top: 0.5em; margin-bottom: 2em; overflow: hidden; border-style: inset; border-width: 1px; border-color:#777; width: 100%; background-color: transparent;}
   
+  h3 {
+    background-color: #000;
+    margin: 2vw;
+    padding: 5px;
+  }
   
   /* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
   
@@ -148,10 +143,14 @@ body {
   
   .interface {
     margin: 2vw;
-    outline-style: dotted;
     outline-color: #eee;
     width: 330px;
     height: 265px;
+  }
+
+  .bullet {
+    color: #ffffff; font-family: DomaineDisplay, Georgia, serif;
+              font-size: 1em; text-align: left;
   }
   
   .expand {
