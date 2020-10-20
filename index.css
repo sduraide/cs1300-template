@@ -105,6 +105,37 @@ body {
   .name {
     font-size: 1.5em;
   }
+
+  ol li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+  }
+
+  ol {
+    max-width: 350px;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 40px;
+  }
+
+  ol li::before {
+    content: counter(my-awesome-counter);
+    color: black;
+    font-size: 1.0rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: #fcd000;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #999;
+  }
   
   .desc {
     color: #fff;
@@ -118,6 +149,10 @@ body {
     background-color: #000;
     margin: 2vw;
     padding: 5px;
+  }
+
+  .noBackground{
+    background-color: #1e1e1e;
   }
   
   /* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
