@@ -1425,7 +1425,10 @@ h1, h2, h3, h4, h5,
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+
+
+@media (hover: hover){
+  /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #0B677B;}
 
 /* Show the dropdown menu on hover */
@@ -1433,7 +1436,7 @@ h1, h2, h3, h4, h5,
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdownList:hover .dropbtn {background-color: #c4f1f7; }
-
+}
 
 .containerGallery {
   max-width: 1125px;
