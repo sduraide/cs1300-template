@@ -142,7 +142,7 @@ ol li::before {
     width: var(--size);
     height: var(--size);
     top: 0;
-    background: #fcd000;
+    background: #999;
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px 0 #999;
