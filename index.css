@@ -132,7 +132,7 @@ ol {
 
 ol li::before {
     content: counter(my-awesome-counter);
-    color: black;
+    color: #003b46;
     font-size: 1.0rem;
     font-weight: bold;
     position: absolute;
@@ -142,10 +142,10 @@ ol li::before {
     width: var(--size);
     height: var(--size);
     top: 0;
-    background: #999;
+    background: #c4dfe6;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 1px 1px 0 #999;
+    box-shadow: 1px 1px 0 #c4dfe6;
 }
 
 .desc {
