@@ -154,6 +154,15 @@ ol li::before {
     text-align: center;
 }
 
+.intro {
+    color: #fff;
+    font-family: DomaineDisplay, Georgia, serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: x-large;
+}
+
 hr {
     display: block;
     margin-top: 0.5em;
