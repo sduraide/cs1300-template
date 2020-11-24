@@ -1,9 +1,9 @@
 body {
     font-family: arial, sans-serif;
     background-color: #1e1e1e;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 1125px;
     margin: 0 auto;
     display: flex;
@@ -12,27 +12,27 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-  }
-  
-  .containerInterface {
+}
+
+.containerInterface {
     max-width: 1125px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  div#header-background{
+}
+
+div#header-background {
     position: absolute;
     max-height: 8em;
     z-index: -1;
     border-radius: 10%;
     opacity: 0.25;
     overflow: hidden;
-  }
-  
-  h1#header-text{ 
+}
+
+h1#header-text {
     position: relative;
     top: 0;
     text-align: center;
@@ -41,37 +41,37 @@ body {
     padding-top: 4vw;
     padding-bottom: 1vw;
     margin-top: 0px;
-  }
-  
-  .gallery {
+}
+
+.gallery {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  .galleryInterface {
+}
+
+.galleryInterface {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-  }
-  
-  .gallery-item {
-    width: 400px;
+}
+
+.gallery-item {
+    width: 350px;
     height: 400px;
     margin: 10px;
     text-decoration: none;
     outline-color: #eee;
-  }
-  
-  .gallery-item img {
+}
+
+.gallery-item img {
     position: absolute;
-    width: 400px;
+    width: 350px;
     height: 400px;
-  }
-  
-  .text-wrapper {
+}
+
+.text-wrapper {
     position: relative;
     width: 330px;
     height: 265px;
@@ -84,42 +84,51 @@ body {
     font-family: DomaineDisplay, Georgia, serif;
     transition: all 0.1s ease-in 0s;
     opacity: 0;
-  }
-  
-  .intro {
+}
+
+.intro {
     color: #eee;
     font-weight: 400;
     font-family: DomaineDisplay, Georgia, serif;
     font-size: 3vw;
     margin-bottom: 0vw;
     margin-right: 0vw;
-  }
-  
-  .text-wrapper:hover {
+}
+
+.text-wrapper:hover {
     transition: all 0.8s ease;
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
     opacity: 1;
-  }
-  
-  .name {
-    font-size: 1.5em;
-  }
+}
 
-  ol li {
+#headerText {
+    color: #ffffff;
+    font-family: DomaineDisplay, Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+ol li {
     margin: 0 0 0.5rem 0;
     counter-increment: my-awesome-counter;
     position: relative;
-  }
+}
 
-  ol {
+ol {
     max-width: 350px;
     counter-reset: my-awesome-counter;
     list-style: none;
     padding-left: 40px;
-  }
+}
 
-  ol li::before {
+ol li::before {
     content: counter(my-awesome-counter);
     color: black;
     font-size: 1.0rem;
@@ -135,147 +144,201 @@ body {
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px 0 #999;
-  }
-  
-  .desc {
+}
+
+.desc {
     color: #fff;
     font-family: DomaineDisplay, Georgia, serif;
     text-align: center;
-  }
-  
-  hr { display: block; margin-top: 0.5em; margin-bottom: 2em; overflow: hidden; border-style: inset; border-width: 1px; border-color:#777; width: 100%; background-color: transparent;}
-  
-  h3 {
+}
+
+hr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #777;
+    width: 100%;
+    background-color: transparent;
+}
+
+h3 {
     background-color: #000;
     margin: 2vw;
     padding: 5px;
-  }
+}
 
-  .noBackground{
+.noBackground {
     background-color: #1e1e1e;
-  }
-  
-  /* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
-  
-  @media only screen and (max-width: 1024px) {
+}
+
+
+/* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
+
+@media only screen and (max-width: 1024px) {
     .text-wrapper {
-      opacity: 1;
-      justify-content: flex-end;
-      text-shadow: 1px 1px 1px #000;
-      color: black;
+        opacity: 1;
+        justify-content: flex-end;
+        text-shadow: 1px 1px 1px #000;
+        color: black;
     }
     .title {
-      margin-bottom: 1em;
+        margin-bottom: 1em;
     }
-  }
-  
-  li {
+}
+
+li {
     color: #eee;
     font-weight: 400;
     font-family: DomaineDisplay, Georgia, serif;
     font-size: 20px;
-  }
-  
-  .interface {
+}
+
+.interface {
     margin: 2vw;
     outline-color: #eee;
     width: 330px;
     height: 265px;
-  }
+}
 
-  .bullet {
-    color: #ffffff; font-family: DomaineDisplay, Georgia, serif;
-              font-size: 1em; text-align: left;
-  }
-  
-  .expand {
+.bullet {
+    color: #ffffff;
+    font-family: DomaineDisplay, Georgia, serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+.expand {
     background-color: #fff;
     align-self: flex-end;
     width: 5%;
     height: 7%;
-  }
-  
-  .iframe {
+}
+
+.iframe {
     align-self: center;
-  }
-  
-  footer {
+}
+
+footer {
     display: flex;
     flex-direction: row;
     background-color: #000;
     color: #bbb;
     line-height: 1.5;
     justify-content: center;
-  }
-  footer a {
+}
+
+footer a {
     text-decoration: none;
     color: #eee;
-  }
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  .ft-title {
+}
+
+.ft-title {
     color: #fff;
     font-family: ’Merriweather’, serif;
     font-size: 1.375rem;
     padding-bottom: 0.625rem;
     margin-bottom: 0vw;
     padding-left: 1.2rem;
-  }
-  
-  .ft-main {
+}
+
+.ft-main {
     padding: 1.25rem 1.875rem;
     display: flex;
     flex-wrap: wrap;
-  }
-  .ft-main-item {
+}
+
+.ft-main-item {
     padding: 1vw;
-    min-width: 12.5rem /*200px*/;
-  }
-  
-  @media only screen and (min-width: 29.8125rem /*477px*/) {
+    min-width: 12.5rem/*200px*/
+    ;
+}
+
+@media only screen and (min-width: 29.8125rem
+/*477px*/
+
+) {
     .ft-main {
         justify-content: space-around;
     }
-  }
-  @media only screen and (min-width: 77.5rem /*1240px*/ ) {
+}
+
+@media only screen and (min-width: 77.5rem
+/*1240px*/
+
+) {
     .ft-main {
         justify-content: space-evenly;
     }
-  
     .expand {
-      display:none
+        display: none
     }
-  }
-  
-  .ft-social {
+}
+
+#intro {
+    color: #ffffff;
+    font-family: DomaineDisplay, Georgia, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #headerText {
+        margin-left: 75vw;
+    }
+    #intro {
+        margin-left: 30vw;
+        margin-right: -60vw;
+        justify-content: center;
+    }
+}
+
+.ft-social {
     padding: 0 1.875rem 1.25rem;
-  }
-  .ft-social-list {
+}
+
+.ft-social-list {
     display: flex;
     justify-content: center;
-    border-top: 1px #777 solid; 
+    border-top: 1px #777 solid;
     padding-top: 1.25rem;
-  }
-  .ft-social-list li {
+}
+
+.ft-social-list li {
     margin: 0.5rem;
     font-size: 1.25rem;
-  }
-  
-  .ft-legal {
+}
+
+.ft-legal {
     padding: 0.9375rem 1.875rem;
     background-color: #333;
-  }
-  .ft-legal-list {
+}
+
+.ft-legal-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-  }
-  .ft-legal-list li {
+}
+
+.ft-legal-list li {
     margin: 0.125rem 0.625rem;
     white-space: nowrap;
-  }
-  /* one before the last child */
-  .ft-legal-list li:nth-last-child(2) {
-    flex: 1;       /* same as flex-grow: 1; */
-  }
+}
+
+
+/* one before the last child */
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+    /* same as flex-grow: 1; */
+}
