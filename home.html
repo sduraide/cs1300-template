@@ -9,109 +9,82 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header id="home">
-        <h1 id="header-text"><b>Development in React.js</b></h1>
-    </header>
+    <h1 id="headerText"><b>Development in React.js</b></h1>
 
-    <div class="containerInterface">
+    <div class="w3-container w3-padding-32" id="projects">
+        <p id="intro"> To better understand the React.js and front-end development, I created a shopping website consisting of tops from different brands. To search for products effectively, I implemented the option to filter by brand and color, and sort by price. You
+            can add and remove items from cart. </p>
+    </div>
 
-        <div class="galleryInterface">
-            <h1 class="desc">What is this project?</h1>
+    <hr>
 
-            <h3 class="intro"> To better understand the React.js and front-end development, I created a shopping website consisting of tops from different brands. To search for products effectively, I implemented the option to filter by brand and color, and sort by price.
-                You can add and remove items from cart.</h3>
+    <div class="galleryInterface">
+        <h1 class="section-title">Goals and Value of the application</h1>
+        <div class="container">
+            <ol style="max-width: 85%;">
+                <li>
+                    <p class="bullet">Many shoppers have a go-to shop to buy their clothes. What if they could find all their brands in one place? Better yet, it would be great to filter by brands.</p>
+                </li>
+                <li>
+                    <p class="bullet">Another common filter many shopping websites have proven to be useful and for users to be helpful is the option to filter by color.</p>
+                </li>
+                <li>
+                    <p class="bullet">The most common sorting option users want is the price. Let's face it, many of us are broke.</p>
+                </li>
+                <li>
+                    <p class="bullet">Looking at the shopping cart itself, users find it nice to have a remove button for every element instead clearing the cart for a single change.</p>
+                </li>
 
+            </ol>
         </div>
     </div>
 
-    <hr style="display: block;
-    margin-top: 0.5em;
-    margin-bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-    border-color: #777;
-    width: 68%;
-    background-color: transparent;">
+    <hr>
 
-    <div class="containerInterface">
+    <div>
+        <h1 class="section-title"><a href="https://floating-journey-81523.herokuapp.com/">Deployed Application<i class="fa fa-external-link"></i></a></h1>
+        <h3 class="section-desc">Fairly simple application to experiment with React! You can find the code <a href="https://github.com/sduraide/development">here</a>.</h3>
+    </div>
 
-        <div class="galleryInterface">
-            <h1 class="desc">Goals and Value of the application</h1>
+    <div class="htmlEmbed">
+        <embed type="text/html" class="html" src="https://floating-journey-81523.herokuapp.com/">
+    </div>
 
-            <div class="container">
-                <ol style="max-width: 85%;">
-                    <li>
-                        <p class="bullet">Many shoppers have a go-to shop to buy their clothes. What if they could find all their brands in one place? Better yet, it would be great to filter by brands.</p>
-                    </li>
-                    <li>
-                        <p class="bullet">Another common filter many shopping websites have proven to be useful and for users to be helpful is the option to filter by color.</p>
-                    </li>
-                    <li>
-                        <p class="bullet">The most common sorting option users want is the price. Let's face it, many of us are broke.</p>
-                    </li>
-                    <li>
-                        <p class="bullet">Looking at the shopping cart itself, users find it nice to have a remove button for every element instead clearing the cart for a single change.</p>
-                    </li>
+    <hr>
 
-                </ol>
-            </div>
+    <div>
+        <h1 class="section-title">Usability Principles Considered</h1>
+    </div>
 
+    <div class="container">
+        <div style="background-color: white; padding: 20px; margin-bottom: 10px;">
+            <img src="./annotated_image.png" class="screenshot">
         </div>
+    </div>
 
-        <hr>
+    <hr>
 
-        <div>
-            <h1 class="desc"><a href="https://floating-journey-81523.herokuapp.com/">Deployed Application<i class="fa fa-external-link"></i></a></h1>
-            <h3 class="desc">Fairly simple application to experiment with React! You can find the code <a href="https://github.com/sduraide/development">here</a>.</h3>
-        </div>
+    <div class="galleryInterface">
 
-        <div class="htmlEmbed">
-            <embed type="text/html" src="https://floating-journey-81523.herokuapp.com/" width="100%" height="600vw" style="margin-top: 3vw;margin-bottom: 3vw;">
-        </div>
-
-        <hr>
-
-        <div>
-            <h1 class="desc">Usability Principles Considered</h1>
-        </div>
         <div class="container">
-            <div style="background-color: white; padding: 20px; margin-bottom: 10px;">
-                <img src="./annotated_image.png" width="100%" height="600vw">
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="galleryInterface">
-            <h1 class="desc">Takeaways</h1>
-
-            <div class="container">
-                <ol style="max-width: 85%;">
-                    <li>
-                        <p class="bullet">The props and state components are highly useful and have a sophisticated way of passing down arguments to different components.</p>
-                    </li>
-                    <li>
-                        <p class="bullet">The hot reload feature has raised the bar too high!</p>
-                    </li>
-                    <li>
-                        <p class="bullet">Fairly easy to navigate if you have prior knowledge of Javascript</p>
-                    </li>
-                </ol>
-            </div>
-
-        </div>
-
-        <hr>
-        <div>
-            <h1 class="desc">Thank you!</h1>
+            <h1 class="section-title">Takeaways</h1>
+            <ol style="max-width: 85%;">
+                <li>
+                    <p class="bullet">The props and state components are highly useful and have a sophisticated way of passing down arguments to different components.</p>
+                </li>
+                <li>
+                    <p class="bullet">The hot reload feature has raised the bar too high!</p>
+                </li>
+                <li>
+                    <p class="bullet">Fairly easy to navigate if you have prior knowledge of Javascript</p>
+                </li>
+            </ol>
         </div>
 
     </div>
