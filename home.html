@@ -1,98 +1,71 @@
 <!DOCTYPE html>
 <html>
-<title>Personas</title>
-<link rel="icon" href="https://img.icons8.com/officel/40/000000/slr-camera.png" sizes="20x20">
+<title>Final Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">  
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- Header -->
-<header id="home">
-    <h1 id="header-text"><b>Personas and Storyboarding</b></h1>
-</header>
+    <h1 class="header-text">Portfolio</h1>
 
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+    <hr>
 
-  <!-- Nav Bar -->
+    <div class="container">
+        <div class="project" onclick="window.open('projects/p2-hyperlinked-set/index.html','mywindow');" style="cursor: pointer;">
+            <div>
+                <p class="project-name">Personas and Storyboarding</p>
+                <p class="project-desc">Observing real users interacting with DSLR, interviewing them about their experiences, creating personas based on these users, and illustrate a storyboard.</p>
+            </div>
 
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <p style="color: #ffffff; font-family: DomaineDisplay, Georgia, serif;
-    font-size: 25px; text-align: center;">Get to know DSLR camera users better by jumping in their shoes (of course with social distancing)! </p>
-  
-    <p style="color: #ffffff; font-family: DomaineDisplay, Georgia, serif;
-    font-size: 20px; text-align: center;"> For this project I had to interview and observe users interacting with an interface, which I chose as a DSLR camera, create personas and draw a storyboard. If you're wondering what these terms are, I didn't know them until I started this project either but you'll enjoy each of the parts below! </p>
-  </div>
+            <div>
+                <img class="project-image" src="./images/hyperlink.jpg">
+            </div>
 
-  <hr>
+        </div>
 
-  <div class="container">
-  
-    <div class="gallery">
-      <h1 class="desc">Interface</h1>
-      <a class="gallery-item" href="./interface.html"><img src="./images/camera.jpg" alt="Interface"><span class="text-wrapper"><span class="name">Learn or make me learn about the camera!</span></span></a>
-   </div>
+        <div class="project" onclick="window.open('projects/p3-input-output/index.html','mywindow');" style="cursor: pointer;">
+            <div>
+                <p class="project-name">Responsive Redesign</p>
+                <p class="project-desc">Identifying usability and accessibility problems with the website, and redesigning the website with design workflow.</p>
+            </div>
 
-    <div class="gallery">  
-      <h1 class="desc">Interviews</h1>
-      <a class="gallery-item" href="./observations.html"><img src="./images/interview.jpg" alt="Interview"><span class="text-wrapper"><span class="name">What type of user are you?</span></span></a>
+            <div>
+                <img class="project-image" src="./images/io.jpg">
+            </div>
+
+        </div>
+
+        <div class="project" onclick="window.open('projects/p3-input-output/index.html','mywindow');" style="cursor: pointer;">
+            <div>
+                <p class="project-name">Iterative Design</p>
+                <p class="project-desc">Designing an interface for Oco Meals startup by only considering their description and goals, without looking at their website.</p>
+            </div>
+
+            <div>
+                <img class="project-image" src="./images/io.jpg">
+            </div>
+
+        </div>
+
+        <div class="project" onclick="window.open('projects/p3-input-output/index.html','mywindow');" style="cursor: pointer;">
+            <div>
+                <p class="project-name">Development in React</p>
+                <p class="project-desc">Understanding front-end with React better by making a shopping application until checkout.</p>
+            </div>
+
+            <div>
+                <img class="project-image" src="./images/io.jpg">
+            </div>
+
+        </div>
     </div>
-
-    <div class="gallery">
-      <h1 class="desc">Personas</h1>
-      <a class="gallery-item" href="./personas.html"><img src="./images/personas.jpeg" alt="Personas"><span class="text-wrapper"><span class="name">Empathy Maps</span></span></a>      
-   </div>
-
-   <div class="gallery">
-    <h1 class="desc">Storyboard</h1>
-    <a class="gallery-item" href="./storyboarding.html"><img src="./images/storyboard.jpg" alt="Storyboard"><span class="text-wrapper"><span class="name">What even happened?</span></span></a>      
- </div>
-    
-  </div>
-</div>
-
-<footer>
-  <!-- Footer main -->
-  <section class="ft-main">
-    <div class="ft-main-item">
-      <h2 class="ft-title"><a href="./home.html">Home</a>
-      </h2>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title"><a href="./interface.html">Interface</a>
-      </h2>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title"><a href="./observations.html">Interview</a></h2>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title"><a href="./personas.html">Personas</a></h2>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title"><a href="./storyboarding.html">Storyboarding</a></h2>
-    </div>
-  </section>
- 
-  <!-- Footer social -->
-  <section class="ft-social">
-    <ul class="ft-social-list" style="list-style: none;">
-      <li><a href="https://www.facebook.com/shenandoah.duraideivamani.73/"><i class="fa fa-facebook-f"></i></a></li>
-      <li><a href="https://github.com/sduraide"><i class="fa fa-github"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/dshenandoah/"><i class="fa fa-linkedin"></i></a></li>
-      <li><a href="mailto:shenandoah_duraideivamani@brown.edu"><i class="fa fa-google"></i></a></li>
-    </ul>
-  </section>
-</footer>
 
 </body>
-</html>
 
-<!-- Footer code and image hover code taken from Bootstrap -->
+</html>
