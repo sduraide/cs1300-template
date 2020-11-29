@@ -190,6 +190,15 @@ h1#header-text {
     margin-right: 10vw;
 }
 
+.section-desc1 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
 .desc {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
