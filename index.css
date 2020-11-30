@@ -97,8 +97,8 @@ h1#header-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .section-title {
@@ -138,6 +138,14 @@ h1#header-text {
     width: 40vw;
     height: 30vw;
     margin: 10px;
+}
+
+.img-chat {
+    width: 250px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -254,10 +262,10 @@ ol li::before {
     width: var(--size);
     height: var(--size);
     top: 0;
-    background: #999;
+    background: #b38867;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 1px 1px 0 #999;
+    box-shadow: 1px 1px 0 #b38867;
 }
 
 .desc {

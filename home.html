@@ -18,17 +18,18 @@
 
     <!-- Header -->
     <header id="home">
-        <h1 id="headerText"><b>A/B Testing</b></h1>
+        <h1 id="headerText">A/B Testing</h1>
     </header>
 
     <div class="w3-container w3-padding-32" id="projects">
-        <p id="intro"> In order to see which background color and location of shopping cart worked better, I created two different versions of a cactus shop! </p>
+        <p id="intro"> I was in the process of deisgning a cactus shop when I couldn't decide between a desert background or a plain white background, and shopping cart in the bottom or top. So I decided to do some A/B Testing.</p>
     </div>
 
     <div class="containerInterface">
 
         <div class="galleryInterface">
             <h1 class="section-title"><a href="https://vast-lowlands-01411.herokuapp.com/">Version A and Version B <i class="fa fa-external-link"></i></a></h1>
+            <h3 class="section-desc">I created two versions of the same cactus shop. In the link above, I altered the code so that Version A would be displayed half the time and Version B would be displayed the other half.</h3>
             <div class="galleryInterface">
 
                 <img class="screenshot" src="./images/versionA.png" alt="Screenshot of Petersbuss website">
@@ -42,7 +43,10 @@
             </div>
 
             <div>
-                <h4 class="section-desc">To determine which version was better, we tested two metrics: Time completion and Return Rate.</h4>
+                <h4 class="section-desc">In order to decide which html background and shopping cart position worked better, I used two metrics: <b>Time Completion</b> for the user to complete the task and the <b>Return Rate</b> of the users after checkout. I started by making
+                    null and alternate hypotheses for each of them.</h4>
+
+                <h3 class="section-desc" style="text-align: left;"><b>Task: </b>Add $150 worth of cacti to the cart and checkout!</h3>
             </div>
 
             <div class="galleryLeft">
@@ -52,8 +56,8 @@
         font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Null Hypothesis:</b> Version A will have an equal or lower time completion rate than Version B</p>
                 <p style="color: white; font-family: 'Montserrat', sans-serif;
       font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Alternate Hypothesis:</b> Version B will have a higher time completion rate than Version A</p>
-                <p style="color: #ddbc95; font-family: 'Montserrat', sans-serif; font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw; ">The two different features of Version B is that images on Version B change on hover and the cart is placed at the top of the page. The image hover would encourage the user to hover over each image first and then add to cart, increasing
-                    the time. The position of the cart forces the user to scroll up to check the contents of the cart, thereby increasing time.</p>
+                <p style="color: #ddbc95; font-family: 'Montserrat', sans-serif; font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw; "><b>Reasoning: </b>The two different features of Version B is that images on Version B change on hover and the cart is placed at the top of the page. The image hover would encourage the user to hover over each image first and then add to
+                    cart, increasing the time. The position of the cart forces the user to scroll up to check the contents of the cart, thereby increasing time.</p>
 
             </div>
             <div class="galleryLeft ">
@@ -63,7 +67,7 @@
                 font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Null Hypothesis:</b> Version A will have an equal or lower return rate than Version B</p>
                 <p style="color: white; font-family: 'Montserrat', sans-serif;
                 font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Alternate Hypothesis:</b> Version B will have a higher return rate than Version A</p>
-                <p style="color: #ddbc95; font-family: 'Montserrat', sans-serif; font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw; ">Version B is more aesthetically pleasing with a neutral combination, better quality images and more features (image hover). This would encourage users to return to the site to explore further.</p>
+                <p style="color: #ddbc95; font-family: 'Montserrat', sans-serif; font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw; "><b>Reasoning: </b>Version B is more aesthetically pleasing with a neutral combination, better quality images and more features (image hover). This would encourage users to return to the site to explore further.</p>
             </div>
 
         </div>
@@ -71,16 +75,36 @@
 
         <div class="gallery">
             <h1 class="section-title">Data Collection</h1>
-            <p class="section-desc"> Half of the data collected was from classmates who were also doing the same project. The other half consisted of my friends and family who did not have a background on this project and only knew the task assigned to them. This could potentially
-                reduce bias. </p>
+            <p class="section-desc">I collected data from 40 different users with the same task as above to determine the result precisely. Half of the data collected was from peers in my studio. The other half consisted of my friends and family who did not have a background
+                on this project and only knew the task assigned to them. This could potentially reduce bias. </p>
 
+        </div>
+
+        <div class="galleryInterface">
+            <div>
+                <!-- image taken from Zoom.us -->
+                <img class="screenshot" src="./images/zoom.png">
+            </div>
+        </div>
+        <div class="galleryInterface">
+            <div>
+                <img class="img-chat" src="./images/jackie.png">
+            </div>
+
+            <div>
+                <img class="img-chat" src="./images/jiggu.png">
+            </div>
+
+            <div>
+                <img class="img-chat" src="./images/marcus.png">
+            </div>
         </div>
 
         <hr>
 
         <div>
-            <h1 class="section-title">Infographic</h1>
-            <h4 class="section-desc">The bias described in the data collection could've led to the low significance as p value was higher than the significance level.</h4>
+            <h1 class="section-title">Analysis</h1>
+            <h4 class="section-desc">After the data was collected from different media, I performed the T Test on Time Completion and Chi-Square Test on Return Rate using this my python script. The results are displayed below.</h4>
         </div>
         <div class="container">
             <img class="screenshot1" src="./images/infographic.png">
@@ -89,7 +113,7 @@
 
         <div>
             <h1 class="section-title">Takeaways</h1>
-            <h3 class="section-desc">Although, there were no concrete results, I did learn some key points of A/B testing!</h3>
+            <h3 class="section-desc">Although, there were no concrete results from performing the tests, I did learn some key points of A/B testing!</h3>
         </div>
         <div class="container">
             <ol style="max-width: 85%;">
@@ -107,6 +131,10 @@
                 </li>
 
             </ol>
+        </div>
+
+        <div style="margin-bottom: 5vw;">
+
         </div>
 
 
