@@ -9,68 +9,69 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Header -->
     <header id="home">
-        <h1 id="header-text"><b>A/B Testing</b></h1>
+        <h1 id="headerText"><b>A/B Testing</b></h1>
     </header>
 
     <div class="w3-container w3-padding-32" id="projects">
-        <p style="color: #ffffff; font-family: DomaineDisplay, Georgia, serif;
-  font-size: 20px; text-align: center; margin-left: 10rem; margin-right: 10rem;"> In order to see which background color and location of shopping cart worked better, I created two different versions of a cactus shop! </p>
+        <p id="intro"> In order to see which background color and location of shopping cart worked better, I created two different versions of a cactus shop! </p>
     </div>
 
     <div class="containerInterface">
 
         <div class="galleryInterface">
-            <h1 class="desc"><a href="https://vast-lowlands-01411.herokuapp.com/">Version A and Version B <i class="fa fa-external-link"></i></a></h1>
+            <h1 class="section-title"><a href="https://vast-lowlands-01411.herokuapp.com/">Version A and Version B <i class="fa fa-external-link"></i></a></h1>
             <div class="galleryInterface">
 
-                <img class="gallery-item" style="width: 30vw; height: 20vw" src="./images/versionA.png" alt="Screenshot of Petersbuss website">
-                <img class="gallery-item" style="width: 30vw; height: 20vw" src="./images/versionB.png" alt="Screenshot of Petersbuss website">
+                <img class="screenshot" src="./images/versionA.png" alt="Screenshot of Petersbuss website">
+                <img class="screenshot" src="./images/versionB.png" alt="Screenshot of Petersbuss website">
             </div>
 
             <hr>
 
             <div class="gallery">
-                <h1 class="desc">Hypothesis for testing</h1>
+                <h1 class="section-title">Hypothesis for testing</h1>
             </div>
 
             <div>
-                <h4 class="desc">To determine which version was better, we tested two metrics: Time completion and Return Rate.</h4>
+                <h4 class="section-desc">To determine which version was better, we tested two metrics: Time completion and Return Rate.</h4>
             </div>
 
             <div class="galleryLeft">
-                <h2 class="desc" style="color: #cdcdc0; font-family: DomaineDisplay, Georgia, serif;
-                text-align: left; margin-left: 10rem; margin-right: 10rem;">Time completion</h2>
-                <p style="color: #b38867; font-family: DomaineDisplay, Georgia, serif;
-        font-size: 20px; text-align: left; margin-left: 10rem; margin-right: 10rem;"><b>Null Hypothesis:</b> Version A will have an equal or lower time completion rate than Version B</p>
-                <p style="color: white; font-family: DomaineDisplay, Georgia, serif;
-      font-size: 20px; text-align: left; margin-left: 10rem; margin-right: 10rem;"><b>Alternate Hypothesis:</b> Version B will have a higher time completion rate than Version A</p>
-                <p style="color: #ddbc95; font-family: DomaineDisplay, Georgia, serif; font-size: 20px; text-align: left; margin-left: 10rem; margin-right: 10rem; ">The two different features of Version B is that images on Version B change on hover and the cart is placed at the top of the page. The image hover would encourage the user to hover over each image first and then add to cart, increasing
+                <h2 style="color: #cdcdc0; font-family: 'Montserrat', sans-serif; font-size: 25px;
+                text-align: left; margin-left: 10vw; margin-right: 10vw;">Time completion</h2>
+                <p style="color: #b38867; font-family: 'Montserrat', sans-serif;
+        font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Null Hypothesis:</b> Version A will have an equal or lower time completion rate than Version B</p>
+                <p style="color: white; font-family: 'Montserrat', sans-serif;
+      font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Alternate Hypothesis:</b> Version B will have a higher time completion rate than Version A</p>
+                <p style="color: #ddbc95; font-family: 'Montserrat', sans-serif; font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw; ">The two different features of Version B is that images on Version B change on hover and the cart is placed at the top of the page. The image hover would encourage the user to hover over each image first and then add to cart, increasing
                     the time. The position of the cart forces the user to scroll up to check the contents of the cart, thereby increasing time.</p>
 
             </div>
             <div class="galleryLeft ">
-                <h2 class="desc" style="color: #cdcdc0; font-family: DomaineDisplay, Georgia, serif;
-              text-align: left; margin-left: 10rem; margin-right: 10rem;">Return Rate</h2>
-                <p style="color: #b38867; font-family: DomaineDisplay, Georgia, serif;
-      font-size: 20px; text-align: left; margin-left: 10rem; margin-right: 10rem;"><b>Null Hypothesis:</b> Version A will have an equal or lower return rate than Version B</p>
-                <p style="color: white; font-family: DomaineDisplay, Georgia, serif;
-    font-size: 20px; text-align: left; margin-left: 10rem; margin-right: 10rem;"><b>Alternate Hypothesis:</b> Version B will have a higher return rate than Version A</p>
-                <p style="color: #ddbc95; font-family: DomaineDisplay, Georgia, serif; font-size: 20px; text-align: left; margin-left: 10rem; margin-right: 10rem; ">Version B is more aesthetically pleasing with a neutral combination, better quality images and more features (image hover). This would encourage users to return to the site to explore further.</p>
+                <h2 class="desc" style="color: #cdcdc0; font-family: 'Montserrat', sans-serif; font-size: 25px;
+                text-align: left; margin-left: 10vw; margin-right: 10vw;">Return Rate</h2>
+                <p style="color: #b38867; font-family: 'Montserrat', sans-serif;
+                font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Null Hypothesis:</b> Version A will have an equal or lower return rate than Version B</p>
+                <p style="color: white; font-family: 'Montserrat', sans-serif;
+                font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw;"><b>Alternate Hypothesis:</b> Version B will have a higher return rate than Version A</p>
+                <p style="color: #ddbc95; font-family: 'Montserrat', sans-serif; font-size: 20px; text-align: left; margin-left: 10vw; margin-right: 10vw; ">Version B is more aesthetically pleasing with a neutral combination, better quality images and more features (image hover). This would encourage users to return to the site to explore further.</p>
             </div>
 
         </div>
         <hr>
 
         <div class="gallery">
-            <h1 class="desc">Data Collection</h1>
-            <p style="color: #ffffff; font-family: DomaineDisplay, Georgia, serif;
-  font-size: 20px; text-align: center; margin-left: 10rem; margin-right: 10rem;"> Half of the data collected was from classmates who were also doing the same project. The other half consisted of my friends and family who did not have a background on this project and only knew the task assigned to them. This could potentially
+            <h1 class="section-title">Data Collection</h1>
+            <p class="section-desc"> Half of the data collected was from classmates who were also doing the same project. The other half consisted of my friends and family who did not have a background on this project and only knew the task assigned to them. This could potentially
                 reduce bias. </p>
 
         </div>
@@ -78,22 +79,22 @@
         <hr>
 
         <div>
-            <h1 class="desc">Infographic</h1>
-            <h4 class="desc">The bias described in the data collection could've led to the low significance as p value was higher than the significance level.</h4>
+            <h1 class="section-title">Infographic</h1>
+            <h4 class="section-desc">The bias described in the data collection could've led to the low significance as p value was higher than the significance level.</h4>
         </div>
         <div class="container">
-            <img style="height: 40vw; width: 50vw; margin-bottom: 10px;" src="./images/infographic.png">
+            <img class="screenshot1" src="./images/infographic.png">
         </div>
         <hr>
 
         <div>
-            <h1 class="desc">Takeaways</h1>
-            <h3 class="desc">Although, there were no concrete results, I did learn some key points of A/B testing!</h3>
+            <h1 class="section-title">Takeaways</h1>
+            <h3 class="section-desc">Although, there were no concrete results, I did learn some key points of A/B testing!</h3>
         </div>
         <div class="container">
             <ol style="max-width: 85%;">
                 <li>
-                    <p>There might’ve been a user bias because half the participants knew what we were testing for.</p>
+                    <p class="bullet">There might’ve been a user bias because half the participants knew what we were testing for.</p>
                 </li>
                 <li>
                     <p class="bullet">The devices which the user viewed the websites on would have an impact since the scrolling would've been very similar on both version on mobile.</p>
