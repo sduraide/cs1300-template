@@ -34,6 +34,7 @@ hr {
     border-radius: 15px;
     box-shadow: 5px 5px #888888;
     align-items: center;
+    transition: all ease-out 300ms;
 }
 
 .project:hover {
