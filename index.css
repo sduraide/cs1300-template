@@ -115,7 +115,6 @@ hr {
     color: black;
     border: 0.1rem solid black;
     border-radius: 7px;
-    box-shadow: 3px 3px #888888;
     padding: 10px;
     margin-bottom: 3vw;
 }
@@ -125,12 +124,15 @@ hr {
         margin-top: 10px;
     }
     .about-me {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     .download {
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 2vw;
         display: block;
+    }
+    .project-desc {
+        font-size: 2vw;
     }
 }
 
@@ -148,5 +150,8 @@ hr {
     }
     .img-responsive {
         margin-right: 20vw;
+    }
+    .project-desc {
+        font-size: 2vw;
     }
 }
