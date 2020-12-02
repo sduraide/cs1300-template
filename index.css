@@ -119,7 +119,7 @@ ol {
 
 ol li::before {
     content: counter(my-awesome-counter);
-    color: black;
+    color: #5a1c0d;
     font-size: 1.0rem;
     font-weight: bold;
     position: absolute;
@@ -129,10 +129,10 @@ ol li::before {
     width: var(--size);
     height: var(--size);
     top: 0;
-    background: #777;
+    background: white;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 1px 1px 0 #999;
+    box-shadow: 1px 1px 0 whitesmoke;
 }
 
 hr {
