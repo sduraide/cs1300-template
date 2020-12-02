@@ -1,180 +1,264 @@
-.header-text {
-    text-align: center;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 2vw;
-    margin-bottom: 1vw;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4vw;
+body {
+    font-family: arial, sans-serif;
+    background-color: #1e1e1e;
 }
 
-hr {
-    color: black;
-    border: 2px solid black;
-    width: 10%;
-    margin-bottom: 7vw;
-}
-
-.contain {
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 2;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.project {
-    display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-bottom: 3vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    padding: 1.5vw;
-    border: 0.1rem solid black;
-    border-radius: 15px;
-    box-shadow: 5px 5px #888888;
-    align-items: center;
-    transition: all ease-out 300ms;
 }
 
-.project:hover {
-    transform: scale(1.1);
-    transition: all ease 500ms;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.project-name {
-    font-family: 'Montserrat', sans-serif;
+.galleryInterface {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    text-decoration: none;
+    outline-color: #eee;
+}
+
+.gallery-item1 {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    text-decoration: none;
+    outline-color: #eee;
+}
+
+.gallery-item img {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+}
+
+.intro {
+    color: #eee;
+    font-weight: 400;
+    font-family: DomaineDisplay, Georgia, serif;
     font-size: 3vw;
-    margin-bottom: 0.1rem;
-    color: black;
-    text-decoration: none;
-    margin-right: 2vw;
+    margin-bottom: 0vw;
+    margin-right: 0vw;
 }
 
-.about-text p {
-    margin-bottom: 30px;
-    line-height: 150%;
-}
-
-.project-desc {
+#headerText {
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5vw;
-    max-width: 75%;
-    color: black;
-    text-decoration: none;
-}
-
-.project-image {
-    width: 30vw;
-    height: 20vw;
-    border-radius: 10px;
-}
-
-#about {
-    padding: 3vw 0;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
-    /* background: rgb(84, 208, 221); */
-    /* Old browsers */
-    /* background: -moz-linear-gradient(top, rgba(84, 208, 221, 1) 0%, rgba(84, 208, 221, 1) 0%, rgba(84, 208, 221, 1) 0%, rgba(127, 220, 230, 1) 0%, rgba(84, 208, 221, 1) 100%); */
-    /* FF3.6-15 */
-    /* background: -webkit-linear-gradient(top, rgba(84, 208, 221, 1) 0%, rgba(84, 208, 221, 1) 0%, rgba(84, 208, 221, 1) 0%, rgba(127, 220, 230, 1) 0%, rgba(84, 208, 221, 1) 100%); */
-    /* Chrome10-25,Safari5.1-6 */
-    /* background: linear-gradient(to bottom, rgba(84, 208, 221, 1) 0%, rgba(84, 208, 221, 1) 0%, rgba(84, 208, 221, 1) 0%, rgba(127, 220, 230, 1) 0%, rgba(84, 208, 221, 1) 100%); */
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#54d0dd', GradientType=0); */
-    /* IE6-9 */
-}
-
-#about .about-text {
-    margin-left: 10px;
-}
-
-#about img {
-    float: right;
-}
-
-#about p {
-    margin-bottom: 30px;
-    line-height: 21px;
-}
-
-.about-me {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5vw;
-}
-
-.section-title.center {
-    padding: 10px 0 40px 0;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
 }
 
 .section-title {
-    padding-bottom: 50px;
-}
-
-.about-text {
-    margin-top: 0px;
-}
-
-.download {
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3vw;
-    color: black;
-    border: 0.1rem solid black;
-    border-radius: 7px;
-    padding: 10px;
-    margin-bottom: 3vw;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2vw;
 }
 
-.download:hover {
-    text-decoration: none;
-    color: black;
+.section-desc {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 2vw;
 }
 
-.zoom:hover {
-    transform: scale(1.1);
-    transition: all ease 500ms;
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.desc {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2vw;
+}
+
+.screenshot {
+    width: 30vw;
+    height: 30vw;
+    margin: 10px;
+}
+
+ol li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+}
+
+ol {
+    max-width: 350px;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 40px;
+}
+
+ol li::before {
+    content: counter(my-awesome-counter);
+    color: black;
+    font-size: 1.0rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: #fcd000;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #999;
+}
+
+hr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #777;
+    width: 80%;
+    background-color: transparent;
+}
+
+h3 {
+    background-color: #000;
+    margin: 2vw;
+    padding: 5px;
+}
+
+.noBackground {
+    background-color: #1e1e1e;
+}
+
+li {
+    color: #eee;
+    font-weight: 400;
+    font-family: DomaineDisplay, Georgia, serif;
+    font-size: 20px;
+}
+
+.interface {
+    margin: 2vw;
+    outline-color: #eee;
+    width: 330px;
+    height: 265px;
+}
+
+.bullet {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+.expand {
+    background-color: #fff;
+    align-self: flex-end;
+    width: 5%;
+    height: 7%;
+}
+
+.iframe {
+    align-self: center;
+}
+
+#intro {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.figma {
+    width: 800px;
+    height: 450px;
+}
+
+.adobe {
+    width: 800px;
+    height: 2000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-adobe {
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .about-text {
-        margin-top: 10px;
+    .screenshot {
+        width: 300px;
+        height: 200px;
     }
-    .about-me {
-        font-size: 2.5vw;
-    }
-    .download {
-        text-align: center;
-        font-size: 2vw;
+    .figma {
+        width: 200px;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .project-desc {
-        font-size: 2vw;
+    .adobe {
+        display: none;
     }
-    .project:hover {
-        transform: none;
+    .img-adobe {
+        width: 300px;
+        height: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-    .about-text {
-        margin-top: 10px;
+    .screenshot {
+        width: 400px;
+        height: 300px;
     }
-    .about-me {
-        font-size: 2vw;
-    }
-    .download {
-        text-align: center;
-        font-size: 1.5vw;
+    .figma {
+        width: 300px;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .img-responsive {
-        margin-right: 20vw;
+    .adobe {
+        display: none;
     }
-    .project-desc {
-        font-size: 2vw;
-    }
-    .project:hover {
-        transform: none;
+    .img-adobe {
+        width: 400px;
+        height: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
