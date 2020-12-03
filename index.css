@@ -45,6 +45,14 @@ body {
     outline-color: #eee;
 }
 
+.gallery-item2 {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    text-decoration: none;
+    outline-color: #eee;
+}
+
 .gallery-item img {
     position: absolute;
     width: 350px;
@@ -251,6 +259,10 @@ li {
     .html {
         width: 90%;
         height: 150vw;
+    }
+    .gallery-item2 {
+        width: 300px;
+        height: 200px;
     }
 }
 
