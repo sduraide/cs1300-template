@@ -1468,8 +1468,8 @@ img {
 }
 
 hr {
-    color: black;
-    border: 2px solid black;
+    color: #1e1e1e;
+    border: 2px solid #1e1e1e;
     width: 10%;
     margin-bottom: 3vw;
 }
