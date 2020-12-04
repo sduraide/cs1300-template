@@ -91,8 +91,8 @@ h1#header-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .figma {
@@ -186,8 +186,8 @@ h1#header-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .section-desc1 {
@@ -196,6 +196,14 @@ h1#header-text {
     font-size: 25px;
     text-align: center;
     margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.section-desc2 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-left: 0vw;
     margin-right: 10vw;
 }
 
