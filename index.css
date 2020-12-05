@@ -106,6 +106,14 @@ body {
     margin-bottom: 2vw;
 }
 
+.desc1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2vw;
+}
+
 .screenshot {
     width: 30vw;
     height: 30vw;
@@ -211,6 +219,9 @@ li {
 .figma {
     width: 800px;
     height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adobe {
