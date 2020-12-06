@@ -175,7 +175,7 @@ button:focus {
     .download {
         text-align: center;
         font-size: 2vw;
-        display: block;
+        display: inline;
     }
     .project-name {
         font-size: 2vw;
@@ -212,6 +212,9 @@ button:focus {
         display: block;
         text-align: left;
     }
+    .topnav {
+        width: 97%;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -229,7 +232,7 @@ button:focus {
     .download {
         text-align: center;
         font-size: 1.5vw;
-        display: block;
+        display: inline;
     }
     .img-responsive {
         margin-right: 15vw;
