@@ -214,14 +214,15 @@ h1#header-text {
 }
 
 .screenshot {
-    width: 350px;
-    height: 400px;
+    width: 80%;
+    height: 90%;
     /* margin-right: 5px;
     margin-left: 5px; */
 }
 
 .storyboard {
-    width: 350px;
+    width: 80%;
+    height: 90%;
     /* margin-left: 5px; */
     display: block;
     margin-left: auto;
